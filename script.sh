@@ -1,4 +1,4 @@
-#!/bin/bash
+♦♦!/bin/bash
 
 plain='\033[0m'
 
@@ -17,24 +17,24 @@ none='\e[0m'
 
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/gcp_404/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
 echo "
-<h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
+<h3><font color='#00B0FF'>▬▬▬▬▬▬♦♣♠★♥▬▬▬▬▬▬
 </font></h3>
-<h3><font color='magenta'>--- ۩ PREMIUM SERVER ۩ ---
-</font></h3>
-
-<h3><font color='green'>--- ۩ SERVER BY ④ ⍤⃝🌻④ ۩ ---
+<h3><font color='#FF1744'>--- ♥ PREMIUM SERVER ♥ ---
 </font></h3>
 
-<h4><font color='cyan'>Telegram Channel >> https://t.me/Pmttg
+<h3><font color='#B9F6CA'>--- ♥ SERVER BY 𝕊𝕄𝕋 ♥ ---
+</font></h3>
+
+<h4><font color='#E1F5FE'>---ကလိ 𝙗𝙮 🆂🅼🆃
 </font></h4>
 
-<h4><font color='blue'>Telegram Channel >> https://t.me/nkka_404
+<h4><font color='blue'>You are what you do, not what you say you will do.
 </font></h4>
 
-<h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
+<h3><font color='#00B0FF'>▬▬▬▬▬▬♦♣♠★♥▬▬▬▬▬▬
 </font></h3>" | tee /etc/ssh/gcp_404 >/dev/null
-useradd "404" --shell=/bin/false -M
-echo "404:404" | chpasswd
+useradd "smt23" --shell=/bin/false -M
+echo "smt23:smt23" | chpasswd
 
 echo ""
 
